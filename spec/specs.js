@@ -3,6 +3,11 @@ describe('validateInput', function() {
     expect(validateInput('100')).to.equal(true);
     expect(validateInput('37')).to.equal(true);
   });
+
+  it("is false if the input yields a negative number when parsed", function() {
+    expect(validateInput(-33)).to.equal(false);
+    expect(validateInput('-100')).to.equal(false);    
+  });
 });
 
 describe('pingPongOutput', function() {
