@@ -23,8 +23,7 @@ var pingPongOutput = function(inputNumber) {
 $(document).ready(function() {
   $("#go-button").click(function() {
     $("#output").empty();
-    $fieldInput = $("#pingPongInputField").val();
-    if (!(validInput($fieldInput))) {
+    if (!(validInput($("#pingPongInputField").val()))) {
       $("#output").append("<br><p>Please enter a positive integer to Ping Pong.</p>");
     } else {
       $pingPongNumber = parseInt($("#pingPongInputField").val());
@@ -32,7 +31,7 @@ $(document).ready(function() {
       for (i = 1; i <= $pingPongNumber; i++) {
         $("#output").append("<li>" + pingPongOutput(i) + "</li>");
       };
-      $("#output").append("</ul>");
+      $("#output").append("</ul><br>");
     };
   });
 });
