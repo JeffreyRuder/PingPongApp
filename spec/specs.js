@@ -1,7 +1,7 @@
 describe('validateInput', function() {
   it("is true if the input yields a valid integer when parsed", function() {
     expect(validateInput('100')).to.equal(true);
-    expect(validateInput('37')).to.eqal(true);
+    expect(validateInput('37')).to.equal(true);
   });
 });
 

@@ -1,3 +1,7 @@
+var validateInput = function(input) {
+  return true;
+}
+
 var pingPongOutput = function(inputNumber) {
   if (inputNumber % 15 === 0) {
     return "pingpong";
