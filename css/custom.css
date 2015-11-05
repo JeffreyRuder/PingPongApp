@@ -1,5 +1,13 @@
-body {
+html, body {
   background-color: #C5C5C5;
+  height: 100%;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
 
 .header {
@@ -18,8 +26,7 @@ body {
 
 #left-column {
   background-color: #71BA71;
-  margin-bottom: -1000px;
-  padding-bottom: 1000px;
+  min-height: 100vh;
 }
 
 #section-heading {
