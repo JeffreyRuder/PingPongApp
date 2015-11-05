@@ -6,4 +6,8 @@ describe('pingPongOutput', function() {
   it("is 'ping' for numbers divisible by 3", function() {
     expect(pingPongOutput(6)).to.equal("ping");
   });
+
+  it("is 'pong' for numbers divisible by 5", function() {
+    expect(pingPongOutput(5)).to.equal("pong");
+  });
 });
