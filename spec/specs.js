@@ -1,12 +1,12 @@
-describe('validateInput', function() {
+describe('validInput', function() {
   it("is true if the input yields a valid integer when parsed", function() {
-    expect(validateInput('100')).to.equal(true);
-    expect(validateInput('37')).to.equal(true);
+    expect(validInput('100')).to.equal(true);
+    expect(validInput('37')).to.equal(true);
   });
 
   it("is false if the input yields a negative number when parsed", function() {
-    expect(validateInput(-33)).to.equal(false);
-    expect(validateInput('-100')).to.equal(false);    
+    expect(validInput(-33)).to.equal(false);
+    expect(validInput('-100')).to.equal(false);
   });
 });
 

@@ -1,5 +1,9 @@
-var validateInput = function(input) {
-  return true;
+var validInput = function(input) {
+  if (parseInt(input) > 0) {
+    return true;
+  } else {
+    return false;
+  };
 }
 
 var pingPongOutput = function(inputNumber) {
