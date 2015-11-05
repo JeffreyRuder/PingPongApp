@@ -10,4 +10,8 @@ describe('pingPongOutput', function() {
   it("is 'pong' for numbers divisible by 5", function() {
     expect(pingPongOutput(5)).to.equal("pong");
   });
+
+  it("is 'pingpong' for numbers divisible by 3 and 5", function() {
+    expect(pingPongOutput(15)).to.equal("pingpong");
+  });
 });
