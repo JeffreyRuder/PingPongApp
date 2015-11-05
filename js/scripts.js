@@ -1,3 +1,7 @@
 var pingPongOutput = function(inputNumber) {
-  return inputNumber;
+  if(inputNumber % 3 === 0) {
+    return "ping";
+  } else {
+    return inputNumber;
+  }
 };
