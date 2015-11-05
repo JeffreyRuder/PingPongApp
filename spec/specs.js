@@ -1,3 +1,10 @@
+describe('validateInput', function() {
+  it("returns the input as an integer if valid", function() {
+    expect(validateInput('100')).to.equal(100);
+    expect(validateInput('37')).to.eqal(37);
+  });
+});
+
 describe('pingPongOutput', function() {
   it("is the number for most input numbers", function() {
     expect(pingPongOutput(2)).to.equal(2);
