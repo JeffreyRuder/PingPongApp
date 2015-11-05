@@ -8,6 +8,11 @@ describe('validInput', function() {
     expect(validInput(-33)).to.equal(false);
     expect(validInput('-100')).to.equal(false);
   });
+
+  it("is false if the input yields NaN when parsed", function() {
+    expect(validInput("Mom")).to.equal(false);
+    expect(validInput("*$!")).to.equal(false);
+  });
 });
 
 describe('pingPongOutput', function() {

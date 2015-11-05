@@ -4,7 +4,7 @@ var validInput = function(input) {
   } else {
     return false;
   };
-}
+};
 
 var pingPongOutput = function(inputNumber) {
   if (inputNumber % 15 === 0) {
