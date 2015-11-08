@@ -8,6 +8,9 @@ A user enters a number and is shown a range of numbers from 1 to the number ente
 * Numbers divisible by 5 are replaced with "pong"
 * Numbers divisible by 15 are replaced with "pingpong"
 
+## GitHub Pages
+View on [GitHub Pages](https://jeffreyruder.github.io/ping-pong-app/).
+
 ## Installation
 Install Ping Pong by cloning this repository:
 ```
